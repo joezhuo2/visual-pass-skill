@@ -1,0 +1,31 @@
+{
+  "name": "visual-pass",
+  "version": "0.1.0",
+  "description": "Claude Code plugin that makes Claude visually verify UI work at the lowest token cost: a measuring script first, screenshots only where it flags something. Modes: light, full, ultra.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joezhuo2/visual-pass-skill.git"
+  },
+  "bin": {
+    "visual-pass": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "hooks",
+    "commands",
+    "scripts",
+    ".claude-plugin"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-plugin",
+    "skill",
+    "visual-testing",
+    "screenshots"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "visual-pass",
+  "owner": { "name": "joezhuo2" },
+  "plugins": [
+    {
+      "name": "visual-pass",
+      "source": "./",
+      "description": "Makes Claude visually verify UI work at the lowest token cost. Run a pass with /visual-pass light|full|ultra."
+    }
+  ]
+}
